@@ -1,0 +1,20 @@
+INFO  [2014-07-18 10:35:20,330+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Creating new nub lookup service at http://api.gbif.org/v1/species/match
+INFO  [2014-07-18 10:35:44,049+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [papyrifera] returned no match. Lookup note: [No match because of too little confidence]
+INFO  [2014-07-18 10:35:48,848+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [auriculiformis] returned no match. Lookup note: [null]
+INFO  [2014-07-18 10:35:52,250+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [molesta] returned no match. Lookup note: [No match because of too little confidence]
+INFO  [2014-07-18 10:35:52,981+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [hirsute] returned no match. Lookup note: [No match because of too little confidence]
+INFO  [2014-07-18 10:35:57,770+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [juliflorae] returned no match. Lookup note: [null]
+INFO  [2014-07-18 10:36:11,887+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [flava] returned no match. Lookup note: [No match because of too little confidence]
+INFO  [2014-07-18 10:36:11,888+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [molesta] returned no match. Lookup note: [No match because of too little confidence]
+INFO  [2014-07-18 11:05:16,279+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Creating new nub lookup service at http://api.gbif.org/v1/species/match
+INFO  [2014-07-18 11:06:03,196+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Creating new nub lookup service at http://api.gbif.org/v1/species/match
+INFO  [2014-07-18 11:06:31,368+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Creating new nub lookup service at http://api.gbif.org/v1/species/match
+INFO  [2014-07-18 11:10:12,083+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Creating new nub lookup service at http://api.gbif.org/v1/species/match
+INFO  [2014-07-18 11:11:34,757+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Creating new nub lookup service at http://api.gbif.org/v1/species/match
+INFO  [2014-07-18 11:11:58,926+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [papyrifera] returned no match. Lookup note: [No match because of too little confidence]
+INFO  [2014-07-18 11:12:03,224+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [auriculiformis] returned no match. Lookup note: [null]
+INFO  [2014-07-18 11:12:06,089+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [molesta] returned no match. Lookup note: [No match because of too little confidence]
+INFO  [2014-07-18 11:12:06,908+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [hirsute] returned no match. Lookup note: [No match because of too little confidence]
+INFO  [2014-07-18 11:12:12,230+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [juliflorae] returned no match. Lookup note: [null]
+INFO  [2014-07-18 11:12:27,844+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [flava] returned no match. Lookup note: [No match because of too little confidence]
+INFO  [2014-07-18 11:12:27,845+0900] [main] org.gbif.occurrence.processor.interpreting.util.NubLookupInterpreter: Nub lookup for [molesta] returned no match. Lookup note: [No match because of too little confidence]
