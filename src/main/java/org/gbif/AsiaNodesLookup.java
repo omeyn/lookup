@@ -16,7 +16,8 @@ public class AsiaNodesLookup {
 
   private static final Logger LOG = LoggerFactory.getLogger(AsiaNodesLookup.class);
   private static final String[] GBIF_HEADERS =
-    {"MatchType", "Confidence", "Synonym", "Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "ScientificName"};
+    {"MatchType", "Confidence", "Synonym", "Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "ScientificName",
+    "KingdomKey", "PhylumKey", "ClassKey", "OrderKey", "FamilyKey", "GenusKey", "NameUsageKey"};
 
   public static void main(String[] args) throws IOException {
 //    String inputFileName = "/Users/oliver/Documents/asian_nodes_mtg/ias_full.csv";
@@ -61,15 +62,29 @@ public class AsiaNodesLookup {
       writeField(os, match.getFamily());
       writeField(os, match.getGenus());
       writeField(os, match.getScientificName());
+      writeField(os, match.getKingdomKey());
+      writeField(os, match.getPhylumKey());
+      writeField(os, match.getClassKey());
+      writeField(os, match.getOrderKey());
+      writeField(os, match.getFamilyKey());
+      writeField(os, match.getGenusKey());
+      writeField(os, match.getUsageKey());
 
       os.write("\n".getBytes());
     } os.close();
   }
 
+  private static void writeField(FileOutputStream os, Integer key) throws IOException {
+    if (key != null) {
+      os.write(key.toString().getBytes("UTF-8"));
+      os.write(",".getBytes("UTF-8"));
+    }
+  }
+
   private static void writeField(FileOutputStream os, String field) throws IOException {
     String quoted = "\"" + field + "\"";
-    os.write(quoted.getBytes());
-    os.write(",".getBytes());
+    os.write(quoted.getBytes("UTF-8"));
+    os.write(",".getBytes("UTF-8"));
   }
 
   private static void logFields(String[] fields) {
